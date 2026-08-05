@@ -1,403 +1,94 @@
+<<<<<<< HEAD
 # 🚀 Hazem Elerefy Portfolio
+=======
+# 🚀 Hazem Elerefy - Data & Intelligence Architect
+>>>>>>> b099bd9 (Update README.md with Hazem Elerefy's portfolio details)
 
 <div align="center">
 
-### Modern • Fast • Responsive • Creative
+### Data Analyst • Deep Learning Engineer • Front-End Developer
 
-A premium personal portfolio built with modern frontend technologies, smooth animations, and a clean UI to showcase projects, skills, and experience.
+A professional portfolio showcasing expertise in Data Analytics, Deep Learning, and cutting-edge Front-End Development with Next.js, Three.js, and GSAP.
 
 <p>
-  <a href="https://shan-portfolioo.netlify.app">
+  <a href="https://hazemelerefey.vercel.app">
     <img src="https://img.shields.io/badge/🌐_Live_Demo-Visit_Website-00C853?style=for-the-badge" />
   </a>
-  <a href="https://github.com/shajith23/shan-portfolio">
+  <a href="https://github.com/hazemelerefey/Hazem-Elerefy-Portfolio-2026">
     <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" />
   </a>
-  <img src="https://img.shields.io/github/stars/shajith23/shan-portfolio?style=for-the-badge" />
-  <img src="https://img.shields.io/github/forks/shajith23/shan-portfolio?style=for-the-badge" />
-  <img src="https://img.shields.io/github/license/shajith23/shan-portfolio?style=for-the-badge" />
 </p>
 
 </div>
 
 ---
 
-## ✨ Preview
+## ✨ Overview
 
-> A modern portfolio crafted to leave a strong first impression with smooth animations, responsive layouts, elegant typography, and a premium user experience.
+Hazem Elerefy's portfolio is designed to highlight a unique blend of analytical prowess and creative engineering. Specializing in transforming complex data into actionable insights and building immersive digital experiences, this portfolio demonstrates a commitment to precision, performance, and user-centric innovation.
 
-### 🔗 Live Website
+### Core Expertise:
 
-**https://shan-portfolioo.netlify.app**
-
-### 💻 GitHub Repository
-
-**https://github.com/shajith23/shan-portfolio**
+- **Data Analytics & Business Intelligence:** Leveraging Power BI, SQL, and Python for predictive modeling and data-driven decision-making.
+- **Deep Learning Engineering:** Developing advanced models for Computer Vision (YOLO variants) and neural architecture optimization.
+- **Front-End Development:** Crafting high-performance, interactive web applications using Next.js, React.js, Three.js, GSAP, and Framer Motion.
 
 ---
 
-# 📖 Table of Contents
+## 🌟 Featured Projects
 
-- Overview
-- Features
-- Tech Stack
-- Folder Structure
-- Installation
-- Run Locally
-- Deployment
-- Customization
-- Performance
-- Browser Support
-- Future Improvements
-- Contributing
-- License
-- Contact
+### 1. DigiSteel (DAFEgate)
+
+An industrial intelligence project utilizing Computer Vision (YOLO variant) for defect detection and quality control in steel manufacturing. This flagship project demonstrates the application of deep learning in real-world industrial settings.
+
+### 2. NeuroScope Workspace
+
+An interactive 3D web application built with Three.js, serving as a dynamic workspace for deep learning model visualization and interaction. It showcases advanced front-end engineering for complex data interfaces.
+
+### 3. Global Sales Dashboard
+
+A comprehensive Power BI dashboard designed to analyze global sales performance, providing key insights through data modeling and predictive analytics to drive business strategy.
 
 ---
 
-# 🚀 Overview
+## 🛠 Tech Stack
 
-Shan Portfolio is a modern personal portfolio website built to showcase projects, skills, achievements, and services.
-
-The website focuses on:
-
-- Premium UI/UX
-- Fast performance
-- Responsive layouts
-- Smooth animations
-- Interactive components
-- SEO-friendly structure
-- Clean and maintainable code
+| Category           | Technologies                                      |
+|--------------------|---------------------------------------------------|
+| **Data & AI**      | Python, Power BI, SQL, TensorFlow, Keras, YOLO    |
+| **Front-End**      | Next.js, React.js, Three.js, GSAP, Framer Motion  |
+| **Web Essentials** | HTML5, CSS3, JavaScript, Bootstrap 5, jQuery      |
+| **Animations**     | GSAP, ScrollTrigger, ScrollSmoother, SplitText    |
 
 ---
 
-# ✨ Features
+## 🚀 Getting Started
 
-## 🎯 Modern UI
-
-- Premium design
-- Dark aesthetic
-- Mobile-first layout
-- Responsive navigation
-- Interactive sections
-
----
-
-## ⚡ Performance
-
-- Lightweight
-- Optimized assets
-- Fast loading
-- Smooth scrolling
-- Lazy loading ready
-
----
-
-## 🎨 Animations
-
-- GSAP animations
-- Scroll animations
-- Hover effects
-- Counter animations
-- Smooth transitions
-
----
-
-## 📱 Fully Responsive
-
-Works perfectly on:
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile
-
----
-
-## 📂 Sections
-
-- Hero
-- About
-- Skills
-- Experience
-- Services
-- Portfolio
-- Testimonials
-- Contact
-- Footer
-
----
-
-# 🛠 Tech Stack
-
-| Technology | Purpose |
-|------------|----------|
-| HTML5 | Structure |
-| CSS3 | Styling |
-| Bootstrap 5 | Responsive Grid |
-| JavaScript | Interactivity |
-| jQuery | Plugins |
-| GSAP | Animations |
-| Swiper.js | Sliders |
-| AOS | Scroll Animations |
-| Magnific Popup | Image & Video Popups |
-| PureCounter | Animated Counters |
-
----
-
-# 📁 Folder Structure
-
-```text
-shan-portfolio/
-│
-├── index.html
-├── README.md
-│
-├── assets/
-│
-├── css/
-├── js/
-├── images/
-├── fonts/
-└── icons/
-```
-
----
-
-# 🚀 Installation
-
-Clone the repository
+To explore this portfolio locally, clone the repository and open `index.html` in your browser, or serve it using a local HTTP server.
 
 ```bash
-git clone https://github.com/shajith23/shan-portfolio.git
-```
-
-Open project
-
-```bash
-cd shan-portfolio
-```
-
----
-
-# ▶ Run Locally
-
-### Method 1
-
-Open
-
-```
-index.html
-```
-
----
-
-### Method 2
-
-Using VS Code
-
-Install
-
-```
-Live Server
-```
-
-Right Click
-
-```
-Open with Live Server
-```
-
----
-
-### Method 3
-
-Python
-
-```bash
+git clone https://github.com/hazemelerefey/Hazem-Elerefy-Portfolio-2026.git
+cd Hazem-Elerefy-Portfolio-2026
 python3 -m http.server 8000
 ```
 
-Visit
-
-```
-http://localhost:8000
-```
+Then, navigate to `http://localhost:8000` in your web browser.
 
 ---
 
-# 🌐 Deployment
+## 👨‍💻 About the Developer
 
-## GitHub Pages
+**Hazem Elerefy** is a Junior Data Analyst specializing in Deep Learning Engineering and Front-End Development. With a passion for bridging the gap between raw data and immersive intelligence, Hazem architects intelligent systems and high-performance digital experiences.
 
-```bash
-git init
-
-git add .
-
-git commit -m "Initial Commit"
-
-git branch -M main
-
-git remote add origin https://github.com/shajith23/shan-portfolio.git
-
-git push -u origin main
-```
-
-Enable
-
-```
-Settings
-
-↓
-
-Pages
-
-↓
-
-Deploy from main branch
-```
-
----
-
-## Netlify
-
-Drag & Drop
-
-OR
-
-Connect GitHub Repository
-
----
-
-## Vercel
-
-Import GitHub Repository
-
-Deploy
-
-Done ✅
-
----
-
-# 🎨 Customization
-
-Update
-
-- Name
-- Logo
-- Images
-- Portfolio Projects
-- Contact Information
-- Resume
-- Social Links
-- Theme Colors
-
-Everything can be customized inside
-
-```
-index.html
-```
-
-and
-
-```
-assets/
-```
-
----
-
-# 📈 Performance Goals
-
-✅ Responsive
-
-✅ SEO Friendly
-
-✅ Accessible
-
-✅ Optimized Assets
-
-✅ Smooth Animation
-
-✅ Cross Browser Compatible
-
----
-
-# 🌍 Browser Support
-
-- Chrome
-- Edge
-- Firefox
-- Safari
-- Brave
-- Opera
-
----
-
-# 🚀 Future Improvements
-
-- Blog Integration
-- CMS Support
-- Dark / Light Toggle
-- Multi-language
-- Analytics Dashboard
-- Contact API
-- Admin Panel
-
----
-
-# 🤝 Contributing
-
-Contributions are welcome.
-
-1. Fork Repository
-
-2. Create Feature Branch
-
-```bash
-git checkout -b feature-name
-```
-
-3. Commit
-
-```bash
-git commit -m "Added Feature"
-```
-
-4. Push
-
-```bash
-git push origin feature-name
-```
-
-5. Open Pull Request
-
----
-
-# 📄 License
-
-This project is available for personal and commercial portfolio use.
-
----
-
-# 👨‍💻 Developer
-
-**Shajith (Shan)**
-
-### Portfolio
-
-https://shan-portfolioo.netlify.app
-
-### GitHub
-
-https://github.com/shajith23
+- **GitHub:** [https://github.com/hazemelerefey](https://github.com/hazemelerefey)
+- **LinkedIn:** [https://www.linkedin.com/in/hazemelerefy](https://www.linkedin.com/in/hazemelerefy)
 
 ---
 
 <div align="center">
 
-### ⭐ If you like this project, don't forget to Star the Repository!
+### ⭐ If you find this portfolio inspiring, consider starring the repository!
 
-Made with ❤️ by **Shajith**
+Made with ❤️ by **Hazem Elerefy**
 
 </div>
