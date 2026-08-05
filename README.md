@@ -1,4 +1,4 @@
-# 🚀 Shan Portfolio
+# 🚀 Hazem Elerefy Portfolio
 
 <div align="center">
 
