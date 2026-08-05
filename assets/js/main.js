@@ -28,42 +28,56 @@
 
   ////////////////////////////////////////////////////
   // 01. PreLoader Js
-  document.addEventListener("DOMContentLoaded", () => {
-    // Create GSAP timeline
-    const tl = gsap.timeline();
+  $(window).on("load", function() {
     const svg = document.getElementById("preloaderSvg");
-    const curve = "M0 502S175 272 500 272s500 230 500 230V0H0Z";
-    const flat = "M0 2S175 1 500 1s500 1 500 1V0H0Z";
-    // Text animation
-    tl.to(".preloader-heading .load-text, .preloader-heading .cont", {
-      delay: 1,
-      y: -80,
-      opacity: 0,
-      duration: 0.6,
-    })
-      // SVG curve animation
+    const preloader = document.querySelector(".preloader");
+    
+    if (!preloader) return;
+
+    const hidePreloader = () => {
+      $(".preloader").fadeOut(600, function() {
+        $(this).css({ "display": "none", "z-index": "-1" });
+      });
+    };
+
+    // Fallback timeout
+    const fallback = setTimeout(hidePreloader, 4000);
+
+    if (typeof gsap !== "undefined" && svg) {
+      const tl = gsap.timeline({
+        onComplete: () => {
+          clearTimeout(fallback);
+          hidePreloader();
+        }
+      });
+      
+      const curve = "M0 502S175 272 500 272s500 230 500 230V0H0Z";
+      const flat = "M0 2S175 1 500 1s500 1 500 1V0H0Z";
+      
+      tl.to(".preloader-heading .load-text, .preloader-heading .cont", {
+        delay: 0.5,
+        y: -80,
+        opacity: 0,
+        duration: 0.6,
+      })
       .to(svg, {
         duration: 0.6,
         attr: { d: curve },
         ease: "power2.inOut",
       })
-      // Flatten SVG
       .to(svg, {
         duration: 0.6,
         attr: { d: flat },
         ease: "power2.inOut",
       })
-      // Slide preloader up
       .to(".preloader", {
         y: "-130%",
         duration: 0.8,
         ease: "power4.inOut",
-      })
-      // Remove from DOM flow
-      .set(".preloader", {
-        display: "none",
-        zIndex: -1,
       });
+    } else {
+      hidePreloader();
+    }
   });
 
   ////////////////////////////////////////////////////
@@ -183,12 +197,14 @@
 
   ////////////////////////////////////////////////////
   // 10. Counter Js
-  new PureCounter();
-  new PureCounter({
-    filesizing: true,
-    selector: ".filesizecount",
-    pulse: 2,
-  });
+  if (typeof PureCounter !== "undefined") {
+    new PureCounter();
+    new PureCounter({
+      filesizing: true,
+      selector: ".filesizecount",
+      pulse: 2,
+    });
+  }
 
   ////////////////////////////////////////////////////
   // 11. Feature Widget Animation Js
